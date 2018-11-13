@@ -1,0 +1,109 @@
+body{
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #428bca;
+    height: 70px;
+}
+
+header a{
+    text-decoration: none;
+    color : white;
+    margin-left: 10px;
+}
+
+header p{
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+main{
+    flex: 1;
+    margin-left: 5px;
+}
+
+.flex_row{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+
+.botoes{
+    height: 30px;
+    width: 100px;
+    background-repeat: no-repeat;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    margin: 3px;
+}
+
+#btnIncluir{
+    margin: inherit;
+    padding-left: 25px;
+    background-image: url("../../images/nova_categoria.png");
+    background-position: 3px;
+    background-color: #5cb85c;
+}
+
+
+#btnGravar{
+    padding-left: 25px;
+    background-image: url("../../images/gravar.png");
+    background-position: 3px;
+    background-color: #428bca;
+}
+
+#btnCancelar{
+    padding-left: 30px;
+    background-image: url("../../images/cancelar.png");
+    background-position: 3px;
+    background-color: #d9534f;
+}
+
+#btnConsultar{
+    margin: inherit;
+    padding-left: 30px;
+    width: 110px;
+    background-image: url("../../images/consultar.png");
+    background-position: 3px;
+    background-color: #5bc0de;
+}
+
+#btnLimpar{
+    padding-left: 25px;
+    width: 110px;
+    background-image: url("../../images/limpar.png");
+    background-position: 3px;
+    background-color: #d9534f;
+}
+
+#groupBox{
+    max-width:260px;
+    padding:16px;
+    	
+}
+
+footer{
+    height: 35px;
+}
+
+footer p{
+    margin-top: -5px;
+    font-size: 13px;
+}
+
+footer hr{
+    border-color: #428bca;
+}
