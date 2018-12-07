@@ -1,0 +1,132 @@
+{
+	"id": "bdee94db-2b1e-3e83-0ed7-e3a13333c927",
+	"name": "LojaPOO",
+	"description": "",
+	"order": [
+		"4cffe255-2c50-5fb8-6f6c-fea39afda615",
+		"a45663ef-93a1-1c98-ee2a-9cf2eb4d8824",
+		"4d3979f0-1988-7371-68e7-1ef63e3ce802",
+		"8636a527-7fb0-2a64-206c-f65df1c49464"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1544046707278,
+	"owner": "6078022",
+	"public": false,
+	"requests": [
+		{
+			"id": "4cffe255-2c50-5fb8-6f6c-fea39afda615",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/lojapoo/api/categoria/read.php",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "bdee94db-2b1e-3e83-0ed7-e3a13333c927",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost/lojapoo/api/categoria/read.php",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1544150520472,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "4d3979f0-1988-7371-68e7-1ef63e3ce802",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/lojapoo/api/categoria/update.php",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1544219983025,
+			"name": "http://localhost/lojapoo/api/categoria/update.php",
+			"description": "",
+			"collectionId": "bdee94db-2b1e-3e83-0ed7-e3a13333c927",
+			"responses": [],
+			"rawModeData": "{\n\t\"id\": 18,\n\t\"nome\": \"Categoria Alterada\",\n\t\"descricao\": \"Descrição Alterada\"\n}"
+		},
+		{
+			"id": "8636a527-7fb0-2a64-206c-f65df1c49464",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/lojapoo/api/categoria/delete.php",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "bdee94db-2b1e-3e83-0ed7-e3a13333c927",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost/lojapoo/api/categoria/delete.php",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1544219390780,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"id\": 22\n}"
+		},
+		{
+			"id": "a45663ef-93a1-1c98-ee2a-9cf2eb4d8824",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/lojapoo/api/categoria/create.php",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "bdee94db-2b1e-3e83-0ed7-e3a13333c927",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost/lojapoo/api/categoria/create.php",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1544150525647,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"nome\": \"Nova Categoria\",\n\t\"descricao\": \"Descrição da Categoria postman\"\n}"
+		}
+	]
+}
